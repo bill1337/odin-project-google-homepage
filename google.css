@@ -1,0 +1,23 @@
+h1 {
+  color: aqua;
+}
+
+#logo {
+  max-width: 20%;
+  max-height: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 75px;
+}
+
+input {
+  border-radius: 50px;
+  position: relative;
+  font-size: large;
+  width: 500px;
+  height: 35px;
+  left: 420px;
+  top: 75px;
+}
