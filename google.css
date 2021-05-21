@@ -1,79 +1,205 @@
+nav {
+  display: flex;
+  width: 100%;
+}
+
+#nav-left {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#About {
+  text-decoration: none;
+  color: black;
+}
+
+#About:hover {
+  text-decoration: underline;
+}
+
+#Store {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+
+#Store:hover {
+  text-decoration: underline;
+}
+#nav-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
 #app-icon {
   height: 25px;
-  position: relative;
-  left: 1200px;
   color: gainsboro;
+  position: relative;
+
+  right: 35px;
 }
-#app-icon-border:hover {
-}
+
 #logo {
-  max-width: 20%;
-  max-height: 20%;
-  display: block;
+  max-height: 250px;
+  max-width: 250px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  top: 60px;
+  position: relative;
+}
+#inputs {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+
+  width: 100%;
+  top: 70px;
+}
+#searchbar {
+  height: 35px;
+  width: 500px;
+  border: 1px solid #eaeaea;
+  padding-left: 30px;
+
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  top: 75px;
+  border-radius: 25px;
+  font-size: large;
 }
 
-input {
-  border-radius: 50px;
-  position: relative;
-  font-size: large;
-  width: 500px;
-  height: 35px;
-  left: 420px;
-  top: 75px;
+#searchbar:hover {
+  border: 3px solid #eaeaea;
 }
 
 button {
   font-size: 14px;
   font-family: arial, sans-serif;
-  color: #222;
+  color: #3c4043;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 15px;
+  cursor: pointer;
+  height: 36px;
+  position: relative;
+  bottom: 45px;
+  font-family: arial, sans-serif;
+}
+
+button:hover {
+  border: 1px solid #dadce0;
 }
 #buttons {
-  position: relative;
-  left: 550px;
-  top: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  z-index: 2;
 }
 
 #btn-1 {
-  background: rgba(233, 230, 230, 0.5);
+  margin-right: 50px;
+  border-radius: 4px;
   position: relative;
-  right: 10px;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  height: fit-content;
-  border: none;
-}
-
-#btn-1:hover {
-  border: 1px solid gainsboro;
-  cursor: pointer;
+  left: 40px;
 }
 
 #btn-2 {
-  position: relative;
-  background: rgba(233, 230, 230, 0.5);
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  height: fit-content;
-  border: none;
+  border-radius: 4px;
 }
 
-#btn-2:hover {
-  border: 1px solid gainsboro;
-  cursor: pointer;
+#footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0px;
+  background-color: #f2f2f2;
+  height: 35px;
 }
 
-#search-icon {
-  position: relative;
+#footer a {
+  color: #3c4043;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+}
+#footer a:hover {
+  text-decoration: underline;
+}
+
+#left {
+  bottom: 0px;
+  width: 100%;
   height: 15px;
-  top: 75px;
-  right: 75px;
-  opacity: 50%;
+}
+
+#left a {
+  margin-left: 35px;
+  margin-top: 10px;
+  position: relative;
+  top: 10px;
+}
+#right {
+  width: 100%;
+  height: 15px;
+  bottom: 0px;
+  /* justify-content: flex-end; */
+}
+#right a {
+  margin-left: 35px;
+  left: 300px;
+  top: 10px;
+  position: relative;
+  text-decoration: none;
+
+  color: #3c4043;
+}
+
+#Advertising {
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#Business {
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+#how-search-works {
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#Privacy {
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+
+  margin-bottom: 10px;
+}
+#Terms {
+}
+#Settings {
+}
+
+#footer-right {
+  height: 35px;
+  background-color: black;
+  width: 50%;
+  display: block;
 }
